@@ -2,6 +2,16 @@
 
 using namespace std;
 
+int silnia(int a){
+    unsigned long long wynik = 1;
+    for (int i = 1; i < a; ++i){
+        wynik = wynik * i;
+    }
+    return wynik;
+}
+
+
+
 int main() {
     int a, b;
     cout << "Podaj liczbe calkowita ";
