@@ -11,7 +11,7 @@ bool czy_pierwsza(int n){
     }
     return 1;
 }
-
+string nietak[] = {"Nie","Tak"};
 
 int main() {
     int a, b;
@@ -24,7 +24,11 @@ int main() {
         cout << "MENU" << endl;
         cout << "Podaj numer czynnosci, ktora chcesz wykonac" << endl;
         cout << "0. Wyjscie" << endl;
+        cout << "2. Test pierwszosci" << endl;
         cin >> wyjscie;
+        if (wyjscie == 2){
+            cout << "Test pierwszosci dla liczby a=" << a << ": " << nietak[czy_pierwsza] << endl;
+        }
     } while(wyjscie != 0);
     return 0;
 }
