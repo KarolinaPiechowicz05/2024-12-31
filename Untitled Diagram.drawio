@@ -10,7 +10,7 @@
         <mxCell id="7EhgKqNySJQiXrnXWurI-2" value="&lt;div&gt;- id : int&lt;/div&gt;&lt;div&gt;+ czy_wypozycza : bool&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ saldo : float&lt;/div&gt;&lt;div&gt;+ lokacja : gps coordinates&lt;/div&gt;&lt;div&gt;- dane_osobowe : string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-1">
           <mxGeometry y="30" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="7EhgKqNySJQiXrnXWurI-3" value="Item 2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-1">
+        <mxCell id="7EhgKqNySJQiXrnXWurI-3" value="&lt;div&gt;+ doladuj_konto (kwota : float) : void&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-1">
           <mxGeometry y="140" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-5" value="Rower" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -32,13 +32,16 @@
           <mxGeometry y="120" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-13" value="Wykaz Rowerów" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="410" width="140" height="90" as="geometry" />
+          <mxGeometry x="410" y="430" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-14" value="+ pierwszy : *Rower" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-13">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-15" value="Item 2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-13">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7EhgKqNySJQiXrnXWurI-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="7EhgKqNySJQiXrnXWurI-6" target="7EhgKqNySJQiXrnXWurI-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
