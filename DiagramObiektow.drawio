@@ -22,6 +22,18 @@
         <mxCell id="u_ZWa27be6jIV4CINYKV-9" value="id=3&lt;br&gt;czy_wypozyczony=true&lt;br&gt;lokacja=N50.991E12.093" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="u_ZWa27be6jIV4CINYKV-8">
           <mxGeometry y="30" width="140" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="u_ZWa27be6jIV4CINYKV-10" value="wykaz_rowerow:Wykaz Rowerów" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_ZWa27be6jIV4CINYKV-11" value="pierwszy = *rower1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="u_ZWa27be6jIV4CINYKV-10">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_ZWa27be6jIV4CINYKV-14" value="uzytkownik1:Użytkownik" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_ZWa27be6jIV4CINYKV-15" value="id=1&lt;br&gt;czy_wypozycza=true&lt;br&gt;saldo:23,46&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="u_ZWa27be6jIV4CINYKV-14">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
