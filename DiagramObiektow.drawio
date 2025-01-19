@@ -16,6 +16,12 @@
         <mxCell id="u_ZWa27be6jIV4CINYKV-6" value="id=2&lt;br&gt;czy_wypozyczony=false&lt;br&gt;lokacja=N51.005E12.110" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="u_ZWa27be6jIV4CINYKV-5">
           <mxGeometry y="30" width="140" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="u_ZWa27be6jIV4CINYKV-8" value="rower2:Rower" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u_ZWa27be6jIV4CINYKV-9" value="id=3&lt;br&gt;czy_wypozyczony=true&lt;br&gt;lokacja=N50.991E12.093" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="u_ZWa27be6jIV4CINYKV-8">
+          <mxGeometry y="30" width="140" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
