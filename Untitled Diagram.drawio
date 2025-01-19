@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7EhgKqNySJQiXrnXWurI-1" value="Użytkownik" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="60" width="140" height="90" as="geometry" />
+          <mxGeometry x="390" y="10" width="260" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="7EhgKqNySJQiXrnXWurI-2" value="&lt;div&gt;- id : int&lt;/div&gt;&lt;div&gt;- saldo : float&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="7EhgKqNySJQiXrnXWurI-2" value="&lt;div&gt;- id : int&lt;/div&gt;&lt;div&gt;+ czy_wypozycza : bool&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ saldo : float&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-1">
+          <mxGeometry y="30" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-3" value="Item 2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+          <mxGeometry y="140" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-5" value="Rower" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="90" width="190" height="210" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry y="160" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-9" value="Wypożyczenie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="170" width="140" height="90" as="geometry" />
+          <mxGeometry x="640" y="310" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-10" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-9">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-13" value="Wykaz Rowerów" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="290" width="140" height="90" as="geometry" />
+          <mxGeometry x="200" y="410" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7EhgKqNySJQiXrnXWurI-14" value="+ pierwszy : *Rower" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="7EhgKqNySJQiXrnXWurI-13">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
