@@ -13,14 +13,28 @@
         <mxCell id="1wQir1odocGlphBvJd91-1" value="Użytkownik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="160" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1wQir1odocGlphBvJd91-2" value="Rower" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="140" width="30" height="60" as="geometry" />
+        <mxCell id="1wQir1odocGlphBvJd91-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wQir1odocGlphBvJd91-4" target="1wQir1odocGlphBvJd91-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1wQir1odocGlphBvJd91-4" value="znajdź pobliskie rowery" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="90" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="1wQir1odocGlphBvJd91-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1wQir1odocGlphBvJd91-7" target="1wQir1odocGlphBvJd91-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1wQir1odocGlphBvJd91-7" value="doładuj swoje konto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1wQir1odocGlphBvJd91-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wQir1odocGlphBvJd91-12" target="1wQir1odocGlphBvJd91-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1wQir1odocGlphBvJd91-12" value="wypożycz rower" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1wQir1odocGlphBvJd91-15" value="oddaj rower" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
