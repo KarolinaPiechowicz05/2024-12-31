@@ -1,0 +1,11 @@
+Typ aplikacji: Wypożyczalnia rowerów miejskich
+
+Klasa Użytkownik: reprezentuje osobę, która potencjalnie będzie korzystać z usług oferowanych przez wypożyczalnię. Może sprawdzić dostępne Rowery w pobliżu, wypożyczyć Rower, doładować swoje konto dodatkową sumą pieniężną. Zawiera w sobie ID użytkownika, jego dane osobowe, saldo konta, czy użytkownik jest w trakcie wypożyczenia, jego geolokalizację. Użytkownik nie może wypożyczyć Roweru, jeśli nie ma wystarczających środków na koncie, a także jeśli nie zostanie znaleziony pobliski Rower.
+
+Klasa Wypożyczenie: reprezentuje pojedynczą akcję wypożyczenia Roweru przez Użytkownika. Zawiera w sobie swój nr ID, wskaźnik na Użytkownika, wskaźnik na Rower, czas wypożyczenia, wartość boolowską czy wypożyczenie jest aktywne. 
+
+Klasa Rower: reprezentuje fizyczny rower do wypożyczenia. Może zostać wypożyczony przez Użytkownika. Zawiera w sobie swój nr ID, swoją geolokalizację, i wartość boolowską czy jest w trakcie wypożyczenia.
+
+Klasa Wykaz Rowerów: reprezentuje wszystkie rowery posiadane przez serwis (stanowi wektor, listę, lub inną podobną strukturę danych). 
+
+Serwis najpierw sprawdza dostępność środków na koncie (saldo) Użytkownika, jeśli jest za małe nie pozwoli Użytkownikowi dokonać Wypożyczenia i przekieruje do doładowania konta. Gdy środki są wystarczające, na podstawie geolokalizacji Użytkownika zostaną znalezione Rowery z Wykazu Rowerów, które są wystarczająco blisko. Następnie Użytkownik wybiera Rower i tworzone jest Wypożyczenie, przypisane do Użytkownika i Roweru (blokując im możliwość odpowiednio utworzenia nowego Wypożyczenia i zostania wypożyczonym). Przez ten czas Użytkownik korzysta z Roweru, a Wypożyczenie zlicza czas spędzony na Rowerze. Gdy przestaje, zwraca Rower, i dzięki temu ich możliwości są odblokowywane, a Wypożyczenie staje się nieaktywne. Na koniec z konta Użytkownika jest pobierana kwota w zależności od zliczonego czasu spędzonego.
